@@ -13,3 +13,11 @@ public class BubSortList {
 		ray = new int[MAXSIZE];
 		nowLength = 0;
 	}
+
+	//Will be adding method
+		public void add(int Item) {
+			if (nowLength < MAXSIZE) {
+				ray[nowLength] = Item;
+				nowLength++;
+			}
+	}
