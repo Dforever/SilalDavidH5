@@ -8,3 +8,8 @@ public class BubSortList {
 	//This will be the length of list
 	private int nowLength;
 
+	//The constructor for the Bubble Sort List
+	public BubSortList() {
+		ray = new int[MAXSIZE];
+		nowLength = 0;
+	}
