@@ -35,3 +35,12 @@ public class BubSortList {
 				print();
 			}
 	}
+
+	//Will print the method
+		public void print() {
+			for (int i = 0; i < nowLength; i++) {
+				System.out.print(ray[i] + " ");
+			}
+			System.out.print("\n");
+		}
+	}
