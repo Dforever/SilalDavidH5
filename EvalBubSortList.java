@@ -20,4 +20,8 @@ public class EvalBubSortList {
 		System.out.println("Unsorted list");
 		listSorted.print();
 
+		//This will actually start the processing of sorting the list
+		System.out.println("List is being Sorted..");
+		listSorted.sort();
+
 
