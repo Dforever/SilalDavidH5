@@ -16,3 +16,8 @@ public class EvalBubSortList {
 					listSorted.add(numRandom);
 		}
 
+		//This will print the whole list before the sorting
+		System.out.println("Unsorted list");
+		listSorted.print();
+
+
