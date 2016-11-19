@@ -7,4 +7,6 @@ public class EvalBubSortList {
 
 		//This will begin to load the new bubble sorted list
 		BubSortList listSorted = new BubSortList();
+		//This will make the list full of Random #'s
+		for (int i = 0; i < listSorted.MAXSIZE; i++)
 
