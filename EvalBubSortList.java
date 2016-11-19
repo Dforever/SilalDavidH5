@@ -24,4 +24,10 @@ public class EvalBubSortList {
 		System.out.println("List is being Sorted..");
 		listSorted.sort();
 
+		//This will print the whole list completely sorted
+		System.out.println("Complete List Sorted");
+		listSorted.print();
+		}
+}
+
 
